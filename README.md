@@ -58,6 +58,14 @@ EPOCHS = 100
 |-------|---------|
 | ![input](input.png) | ![epoch1](DCGAN_Images/image_at_epoch_0001.png) |
 
+| Epoch 2 | Epoch 3 |
+|-------|---------|
+| ![input](DCGAN_Images/image_at_epoch_0002.png) | ![epoch1](DCGAN_Images/image_at_epoch_0003.png) |
+
+| Epoch 9 | Epoch 17 |
+|-------|---------|
+| ![input](DCGAN_Images/image_at_epoch_0009.png) | ![epoch1](DCGAN_Images/image_at_epoch_0017.png) |
+
 | Epoch 25 | Epoch 50 |
 |----------|----------|
 | ![epoch25](DCGAN_Images/image_at_epoch_0025.png) | ![epoch50](DCGAN_Images/image_at_epoch_0050.png) |
