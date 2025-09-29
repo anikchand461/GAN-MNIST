@@ -9,7 +9,11 @@ A GAN consists of two neural networks trained together:
 
 Both models compete, and over time the generator produces increasingly realistic digits.
 
----
+## 🏗 GAN Architecture used here
+
+| Generator | Discriminator |
+|-------|---------|
+| ![input](Generator_Model.png) | ![epoch1](Discriminator_Model.png) |
 
 ## ⚙️ Features
 - Custom-built Generator and Discriminator networks using TensorFlow/Keras.
