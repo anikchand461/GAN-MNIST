@@ -54,9 +54,24 @@ EPOCHS = 100
 
 ## 📊 Results (Generated Fake Images)
 
-| Input | Epoch 1 | Epoch 25 | Epoch 50 | Epoch 75 | Epoch 100 |
-|-------|---------|----------|----------|----------|-----------|
-| ![input](input.png) | ![epoch1](DCGAN_Images/image_at_epoch_0001.png) | ![epoch25](DCGAN_Images/image_at_epoch_0025.png) | ![epoch50](DCGAN_Images/image_at_epoch_0050.png) | ![epoch75](DCGAN_Images/image_at_epoch_0075.png) | ![epoch100](DCGAN_Images/image_at_epoch_0100.png) |
+**Input Image**
+![input](input.png)
+
+**Progression of Generated Digits**
+- Epoch 1  
+  ![epoch1](DCGAN_Images/image_at_epoch_0001.png)
+
+- Epoch 25  
+  ![epoch25](DCGAN_Images/image_at_epoch_0025.png)
+
+- Epoch 50  
+  ![epoch50](DCGAN_Images/image_at_epoch_0050.png)
+
+- Epoch 75  
+  ![epoch75](DCGAN_Images/image_at_epoch_0075.png)
+
+- Epoch 100  
+  ![epoch100](DCGAN_Images/image_at_epoch_0100.png)
 
 
 
@@ -66,7 +81,7 @@ EPOCHS = 100
 ---
 
 ### Real MNIST images:
-![alt text](<Screenshot 2568-09-29 at 5.03.01 PM.png>)
+![alt text](input.png)
 
 ## 📈 Possible Improvements
 - Implement **FID (Fréchet Inception Distance)** or **Inception Score** for evaluation.
