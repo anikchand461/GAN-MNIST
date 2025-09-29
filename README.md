@@ -53,22 +53,17 @@ EPOCHS = 100
 ---
 
 ## 📊 Results (generated fake images)
-- **Input**: 
-![alt text](input.png)
-- **Epoch 1**: Output looks like random noise.
-![alt text](DCGAN_Images/image_at_epoch_0001.png)
-- **Epoch 25**: Digits start forming recognizable shapes.
-![alt text](DCGAN_Images/image_at_epoch_0025.png)
-- **Epoch 50**:
-![alt text](DCGAN_Images/image_at_epoch_0050.png)
-- **Epoch 75**:
-![alt text](DCGAN_Images/image_at_epoch_0075.png)
-- **Epoch 50**:
-![alt text](DCGAN_Images/image_at_epoch_0100.png)
+![input](input.png)
+**Progression of Generated Digits**
+![epoch1](DCGAN_Images/image_at_epoch_0001.png)
+![epoch25](DCGAN_Images/image_at_epoch_0025.png)
+![epoch50](DCGAN_Images/image_at_epoch_0050.png)
+![epoch75](DCGAN_Images/image_at_epoch_0075.png)
+![epoch100](DCGAN_Images/image_at_epoch_0100.png)
 
 
 ### Example (Generated Digits Progress)
-![alt text](DCGAN_Animation.gif)
+![alt text](DGSCAN_animation.gif)
 
 ---
 
