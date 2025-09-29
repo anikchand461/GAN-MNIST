@@ -54,24 +54,18 @@ EPOCHS = 100
 
 ## 📊 Results (Generated Fake Images)
 
-**Input Image**
-![input](input.png)
+| Input | Epoch 1 |
+|-------|---------|
+| ![input](input.png) | ![epoch1](DCGAN_Images/image_at_epoch_0001.png) |
 
-**Progression of Generated Digits**
-- Epoch 1  
-  ![epoch1](DCGAN_Images/image_at_epoch_0001.png)
+| Epoch 25 | Epoch 50 |
+|----------|----------|
+| ![epoch25](DCGAN_Images/image_at_epoch_0025.png) | ![epoch50](DCGAN_Images/image_at_epoch_0050.png) |
 
-- Epoch 25  
-  ![epoch25](DCGAN_Images/image_at_epoch_0025.png)
+| Epoch 75 | Epoch 100 |
+|----------|-----------|
+| ![epoch75](DCGAN_Images/image_at_epoch_0075.png) | ![epoch100](DCGAN_Images/image_at_epoch_0100.png) |
 
-- Epoch 50  
-  ![epoch50](DCGAN_Images/image_at_epoch_0050.png)
-
-- Epoch 75  
-  ![epoch75](DCGAN_Images/image_at_epoch_0075.png)
-
-- Epoch 100  
-  ![epoch100](DCGAN_Images/image_at_epoch_0100.png)
 
 
 
