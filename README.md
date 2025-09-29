@@ -75,7 +75,7 @@ EPOCHS = 100
 ---
 
 ### Real MNIST images:
-![alt text](input.png)
+![alt text](real_data.png)
 
 ## 📈 Possible Improvements
 - Implement **FID (Fréchet Inception Distance)** or **Inception Score** for evaluation.
