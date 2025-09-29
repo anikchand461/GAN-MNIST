@@ -52,14 +52,12 @@ EPOCHS = 100
 
 ---
 
-## 📊 Results (generated fake images)
-![input](input.png)
-**Progression of Generated Digits**
-![epoch1](DCGAN_Images/image_at_epoch_0001.png)
-![epoch25](DCGAN_Images/image_at_epoch_0025.png)
-![epoch50](DCGAN_Images/image_at_epoch_0050.png)
-![epoch75](DCGAN_Images/image_at_epoch_0075.png)
-![epoch100](DCGAN_Images/image_at_epoch_0100.png)
+## 📊 Results (Generated Fake Images)
+
+| Input | Epoch 1 | Epoch 25 | Epoch 50 | Epoch 75 | Epoch 100 |
+|-------|---------|----------|----------|----------|-----------|
+| ![input](input.png) | ![epoch1](DCGAN_Images/image_at_epoch_0001.png) | ![epoch25](DCGAN_Images/image_at_epoch_0025.png) | ![epoch50](DCGAN_Images/image_at_epoch_0050.png) | ![epoch75](DCGAN_Images/image_at_epoch_0075.png) | ![epoch100](DCGAN_Images/image_at_epoch_0100.png) |
+
 
 
 ### Example (Generated Digits Progress)
