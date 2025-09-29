@@ -1,4 +1,4 @@
-# GAN for MNIST Handwritten Digits
+# Fake Handwritten digits generation using GAN over MNIST dataset
 
 ## 📌 Project Overview
 This project implements a **Generative Adversarial Network (GAN)** from scratch in **Keras & TensorFlow** to generate realistic handwritten digits similar to the MNIST dataset.
