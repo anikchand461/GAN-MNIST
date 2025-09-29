@@ -25,36 +25,6 @@ Both models compete, and over time the generator produces increasingly realistic
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Install Dependencies
-Make sure you have Python 3.8+ and install required libraries:
-
-```bash
-pip install tensorflow matplotlib pillow tensorflow-docs
-```
-
-### 2. Run the Notebook
-Launch Jupyter Notebook or Colab:
-
-```bash
-jupyter notebook GAN_MNIST_Notebook.ipynb
-```
-
-### 3. Training
-Training runs for **50 epochs by default**. You can adjust the number of epochs:
-
-```python
-EPOCHS = 100
-```
-
-### 4. Outputs
-- Images are saved as `image_at_epoch_XXXX.png` (e.g., `image_at_epoch_0001.png`).
-- A GIF animation is created (`dcgan_animation.gif`).
-- A concatenated PNG of all results (`dcgan_animation.png`).
-- A ZIP archive containing all generated images (`dcgan_images.zip`).
-
----
 
 ## 📊 Results (Generated Fake Images)
 
