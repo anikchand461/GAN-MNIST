@@ -41,7 +41,7 @@ jupyter notebook GAN_MNIST_Notebook.ipynb
 Training runs for **50 epochs by default**. You can adjust the number of epochs:
 
 ```python
-EPOCHS = 50
+EPOCHS = 100
 ```
 
 ### 4. Outputs
@@ -52,15 +52,28 @@ EPOCHS = 50
 
 ---
 
-## 📊 Results
-- **Epoch 1–10**: Output looks like random noise.
-- **Epoch 20+**: Digits start forming recognizable shapes.
-- **Epoch 50+**: Generated digits resemble real MNIST images.
+## 📊 Results (generated fake images)
+- **Input**: 
+![alt text](input.png)
+- **Epoch 1**: Output looks like random noise.
+![alt text](DCGAN_Images/image_at_epoch_0001.png)
+- **Epoch 25**: Digits start forming recognizable shapes.
+![alt text](DCGAN_Images/image_at_epoch_0025.png)
+- **Epoch 50**:
+![alt text](DCGAN_Images/image_at_epoch_0050.png)
+- **Epoch 75**:
+![alt text](DCGAN_Images/image_at_epoch_0075.png)
+- **Epoch 50**:
+![alt text](DCGAN_Images/image_at_epoch_0100.png)
+
 
 ### Example (Generated Digits Progress)
-![Generated Digits Example](dcgan_animation.gif)
+![alt text](DCGAN_Animation.gif)
 
 ---
+
+### Real MNIST images:
+![alt text](<Screenshot 2568-09-29 at 5.03.01 PM.png>)
 
 ## 📈 Possible Improvements
 - Implement **FID (Fréchet Inception Distance)** or **Inception Score** for evaluation.
@@ -68,7 +81,4 @@ EPOCHS = 50
 - Extend GAN training to **color image datasets** (e.g., CIFAR-10).
 - Try **Conditional GANs (cGANs)** to generate specific digits.
 
----
 
-## 📜 License
-This project is released under the MIT License for educational purposes.
